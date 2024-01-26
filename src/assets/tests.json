@@ -1,0 +1,19 @@
+{
+    "bookingId" : 4191649,
+    "event" : {
+      "eventId" : 4178578
+    },
+    "participant" : {
+      "crsid" : "mhp32"
+    },
+    "bookedBy" : {
+      "crsid" : "mhp32"
+    },
+    "bookingTime" : 1641814039845,
+    "status" : "booked",
+    "institution" : {
+      "instid" : "SANGRES"
+    },
+    "misStatus" : "student",
+    "attended" : true
+  } 

@@ -1,0 +1,2566 @@
+{
+  "result" : {
+    "version" : "1.2",
+    "event" : {
+      "eventId" : 4178578,
+      "course" : {
+        "courseId" : "bioinfo-scRNAseq"
+      },
+      "startDate" : 1643967000000,
+      "endDate" : 1645205400000,
+      "title" : "Analysis of single cell RNA-seq data (ONLINE LIVE TRAINING)",
+      "courseType" : "instructor-led",
+      "subType" : "taught-course",
+      "status" : "completed",
+      "targetAudience" : "*'''Graduate''' students, '''Postdocs''' and '''Staff members''' from the '''University of Cambridge''', '''[http://www.training.cam.ac.uk/bioinformatics/info/eligibility Affiliated Institutions]''' and other external Institutions or individuals\r\n*<span style=\"color:#FF0000\">Please be aware that these courses are '''only free for registered University of Cambridge students'''. All other participants will be charged a registration fee in some form. Registration fees and further details regarding the charging policy are available [http://www.training.cam.ac.uk/bioinformatics/info/charging here].''<span style=\"color:#FF0000\">\r\n*Further details regarding eligibility criteria are available [http://www.training.cam.ac.uk/bioinformatics/info/eligibility here]",
+      "description" : "<span style=\"color:#FF0000\">'''PLEASE NOTE''' The Bioinformatics Team are presently teaching many courses live online, with tutors available to help you work through the course material on a personal copy of the course environment. We continue to monitor advice from the UK government and the University of Cambridge on resuming in-person teaching back in the training room.</span style>\r\n\r\nRecent technological advances have made it possible to obtain genome-wide transcriptome data from single cells using high-throughput sequencing (scRNA-seq). Even though scRNA-seq makes it possible to address problems that are intractable with bulk RNA-seq data, analysing scRNA-seq is also more challenging. \r\n\r\nIn this course we will be surveying the existing problems as well as the available '''computational and statistical frameworks available for the analysis of scRNA-seq'''.\r\n\r\n<span style=\"color:#FF0000\">'''Please note that if you are not eligible for a University of Cambridge [http://www.ucs.cam.ac.uk/docs/faq/raven/n5 Raven] account you will need to book or register your interest by linking [http://bioinfotraining.bio.cam.ac.uk/booking-form/?event-id=4178578&&course-title=Analysis%20of%20single%20cell%20RNA-seq%20data here].''</span style>",
+      "duration" : "3",
+      "frequency" : "A number of times per year",
+      "format" : "Presentation and demonstrations",
+      "prerequisites" : "*'''Highly Recommended:''' Basic familiarity with the Unix command line and the R scripting language. Please make sure to attend one of our courses on these topics (see related courses below). Otherwise, please work through these materials before attending this workshop: [https://datacarpentry.org/shell-genomics/ '''Basic Command Line'''] and [https://cambiotraining.github.io/intro-r/ '''Introduction to R for biologists'''] \r\n*'''Recommended:''' It will also be beneficial if you have some familiarity with the Analysis of bulk RNA-seq data. You can attend our course on this topic either before or after attending this course (link below). \r\n \r\n\r\n\r\n",
+      "aims" : "During this course you will learn about: \r\n\r\n*Different scRNA-seq technologies and what kind of data you obtain from each\r\n*Processing raw sequencing data from the commonly-used 10x Chromium platform using ''cellranger'' and the ''Loupe'' browser for exploratory analysis of the data. Preparing reference genomes for mapping with ''cellranger''.\r\n*Use several R/Bioconductor packages for downstream analysis of scRNA-seq data, including: data normalization, correction for batch effects, dimensionality reduction methods (PCA, t-SNE and UMAP), cell clustering and differential expression analysis.\r\n\r\n",
+      "objectives" : "After this course you should be able to:\r\n\r\n*Know about different single-cell sequencing technologies available nowadays, their pros and cons and which you may want to use for your experiments\r\n*Process raw single-cell sequencing data and assess the quality of your data\r\n*Normalise scRNA-seq data\r\n*Visualise the data and apply dimensionality reduction\r\n*Apply methods for batch correction and data integration\r\n*Identify groups of similar cells by clustering and identify marker genes to differentiate them\r\n*Apply differential expression between conditions\r\n\r\n",
+      "newEvent" : false,
+      "updatedEvent" : true,
+      "specialEvent" : false,
+      "extraRun" : false,
+      "beginnersEvent" : false,
+      "intermediateEvent" : false,
+      "advancedEvent" : false,
+      "hasPrerequisites" : true,
+      "showOnTimetable" : true,
+      "showOnThemesPage" : true,
+      "maxParticipants" : 76,
+      "bookings" : [ {
+        "bookingId" : 4180318,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "el416"
+        },
+        "bookedBy" : {
+          "crsid" : "el416"
+        },
+        "bookingTime" : 1639647085898,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4180327,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ap680"
+        },
+        "bookedBy" : {
+          "crsid" : "ap680"
+        },
+        "bookingTime" : 1639647356079,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4180353,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mao34"
+        },
+        "bookedBy" : {
+          "crsid" : "mao34"
+        },
+        "bookingTime" : 1639647665197,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "MEDLIB"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4180394,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "sag66"
+        },
+        "bookedBy" : {
+          "crsid" : "sag66"
+        },
+        "bookingTime" : 1639648498483,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4180409,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "st861"
+        },
+        "bookedBy" : {
+          "crsid" : "st861"
+        },
+        "bookingTime" : 1639648985187,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4180416,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "jwal2"
+        },
+        "bookedBy" : {
+          "crsid" : "jwal2"
+        },
+        "bookingTime" : 1639649099171,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4180419,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "wih24"
+        },
+        "bookedBy" : {
+          "crsid" : "wih24"
+        },
+        "bookingTime" : 1639649125341,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4180446,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mv244"
+        },
+        "bookedBy" : {
+          "crsid" : "mv244"
+        },
+        "bookingTime" : 1639650488284,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4180484,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mavr3"
+        },
+        "bookedBy" : {
+          "crsid" : "mavr3"
+        },
+        "bookingTime" : 1639651714832,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff,student",
+        "attended" : true
+      }, {
+        "bookingId" : 4180610,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "atj31"
+        },
+        "bookedBy" : {
+          "crsid" : "atj31"
+        },
+        "bookingTime" : 1639658390779,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4181179,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "an566"
+        },
+        "bookedBy" : {
+          "crsid" : "an566"
+        },
+        "bookingTime" : 1639705233551,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff",
+        "specialRequirements" : "I am unable to make the first session as I am flying back to Cambridge on that day. Would the material be available so that I can catch up myself? Thank you so much. "
+      }, {
+        "bookingId" : 4181636,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4181635"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1639745184364,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4181742,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "sjl95"
+        },
+        "bookedBy" : {
+          "crsid" : "sjl95"
+        },
+        "bookingTime" : 1639750664151,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4182191,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "rm860"
+        },
+        "bookedBy" : {
+          "crsid" : "rm860"
+        },
+        "bookingTime" : 1639950499609,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "SPVSR21"
+        },
+        "misStatus" : "",
+        "attended" : true
+      }, {
+        "bookingId" : 4182984,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "dg585"
+        },
+        "bookedBy" : {
+          "crsid" : "dg585"
+        },
+        "bookingTime" : 1640083852517,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student",
+        "specialRequirements" : "None",
+        "attended" : true
+      }, {
+        "bookingId" : 4184236,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "anss2"
+        },
+        "bookedBy" : {
+          "crsid" : "anss2"
+        },
+        "bookingTime" : 1640557385135,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff,student",
+        "attended" : false
+      }, {
+        "bookingId" : 4184559,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "gf349"
+        },
+        "bookedBy" : {
+          "crsid" : "gf349"
+        },
+        "bookingTime" : 1640945772311,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "BOT"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4184849,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4170553"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641220188154,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4184852,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4184851"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641220243110,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4184861,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4184858"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641220330694,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4184864,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4184863"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641220392788,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4185741,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ew418"
+        },
+        "bookedBy" : {
+          "crsid" : "ew418"
+        },
+        "bookingTime" : 1641311260819,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "SPVSR21"
+        },
+        "misStatus" : "",
+        "attended" : true
+      }, {
+        "bookingId" : 4187601,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "js2421"
+        },
+        "bookedBy" : {
+          "crsid" : "js2421"
+        },
+        "bookingTime" : 1641465425119,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4189427,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ks2045"
+        },
+        "bookedBy" : {
+          "crsid" : "ks2045"
+        },
+        "bookingTime" : 1641509051150,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "SURG"
+        },
+        "misStatus" : "",
+        "attended" : true
+      }, {
+        "bookingId" : 4189438,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "cym20"
+        },
+        "bookedBy" : {
+          "crsid" : "cym20"
+        },
+        "bookingTime" : 1641514979795,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CIMR"
+        },
+        "misStatus" : "staff,student",
+        "attended" : true
+      }, {
+        "bookingId" : 4190367,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4176575"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641568754236,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4190370,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4190369"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641568792440,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4190373,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4190372"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641568863716,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4191646,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "csg42"
+        },
+        "bookedBy" : {
+          "crsid" : "csg42"
+        },
+        "bookingTime" : 1641813997703,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "MRCTOX"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191649,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mhp32"
+        },
+        "bookedBy" : {
+          "crsid" : "mhp32"
+        },
+        "bookingTime" : 1641814039845,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "SANGRES"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191657,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "gl474"
+        },
+        "bookedBy" : {
+          "crsid" : "gl474"
+        },
+        "bookingTime" : 1641814101155,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "PAED"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191676,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "np542"
+        },
+        "bookedBy" : {
+          "crsid" : "np542"
+        },
+        "bookingTime" : 1641814257129,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CNEUROL"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191679,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "rsta2"
+        },
+        "bookedBy" : {
+          "crsid" : "rsta2"
+        },
+        "bookingTime" : 1641814274379,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CNEUROL"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191682,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ah2011"
+        },
+        "bookedBy" : {
+          "crsid" : "ah2011"
+        },
+        "bookingTime" : 1641814386952,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "BIOSTAT"
+        },
+        "misStatus" : "staff,student"
+      }, {
+        "bookingId" : 4191707,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4064404"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641814794930,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4191709,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ga411"
+        },
+        "bookedBy" : {
+          "crsid" : "ga411"
+        },
+        "bookingTime" : 1641814820047,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "GYNAE"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4191736,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "fnb24"
+        },
+        "bookedBy" : {
+          "crsid" : "fnb24"
+        },
+        "bookingTime" : 1641815138381,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "PHY"
+        },
+        "misStatus" : "student",
+        "attended" : false
+      }, {
+        "bookingId" : 4191770,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "jll55"
+        },
+        "bookedBy" : {
+          "crsid" : "jll55"
+        },
+        "bookingTime" : 1641815622998,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "BABRSTU"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191830,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3757075"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641816207365,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4191837,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3349273"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641816279561,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4191839,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4139958"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641816316762,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4191841,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "sc2314"
+        },
+        "bookedBy" : {
+          "crsid" : "sc2314"
+        },
+        "bookingTime" : 1641816318752,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "HAEM"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4191845,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3324484"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641816436312,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4191847,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "axc23"
+        },
+        "bookedBy" : {
+          "crsid" : "axc23"
+        },
+        "bookingTime" : 1641816440446,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CNEUROL"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4191869,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "kb449"
+        },
+        "bookedBy" : {
+          "crsid" : "kb449"
+        },
+        "bookingTime" : 1641816638593,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "BIOCH"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4191906,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mch70"
+        },
+        "bookedBy" : {
+          "crsid" : "mch70"
+        },
+        "bookingTime" : 1641817077021,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "PHYSI"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4192115,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4143512"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641823285832,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4192121,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4081778"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641823319394,
+        "status" : "cancelled",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4192128,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4134099"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641823365339,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4192136,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4167435"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641824191306,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4192205,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4192201"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641824313925,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4192207,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4126128"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641824351355,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4192290,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "bm525"
+        },
+        "bookedBy" : {
+          "crsid" : "bm525"
+        },
+        "bookingTime" : 1641825108727,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "MED"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4192610,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "dg608"
+        },
+        "bookedBy" : {
+          "crsid" : "dg608"
+        },
+        "bookingTime" : 1641832012218,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "MED"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4192707,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3816982"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641835261459,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : false
+      }, {
+        "bookingId" : 4192724,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "jp843"
+        },
+        "bookedBy" : {
+          "crsid" : "jp843"
+        },
+        "bookingTime" : 1641836199420,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "SURG"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4192772,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "pp538"
+        },
+        "bookedBy" : {
+          "crsid" : "pp538"
+        },
+        "bookingTime" : 1641842566270,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CBIOCH"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4192850,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ya244"
+        },
+        "bookedBy" : {
+          "crsid" : "ya244"
+        },
+        "bookingTime" : 1641867759638,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "GEN"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4192971,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4192964"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641892227181,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : false
+      }, {
+        "bookingId" : 4192981,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3048097"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641892296909,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4192983,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4095972"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641892347046,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4193015,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4143442"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641894012708,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4193598,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4096021"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641901035259,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4194977,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "al862"
+        },
+        "bookedBy" : {
+          "crsid" : "al862"
+        },
+        "bookingTime" : 1641916791836,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CHEM"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4196271,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "sr814"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641989898014,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4196282,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4196278"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641990054263,
+        "status" : "cancelled",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4196291,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4090134"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641990108095,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4196309,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4196297"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641990417096,
+        "status" : "cancelled",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4196311,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3520117"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1641990442958,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4197083,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4049170"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642005709408,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4197231,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ma839"
+        },
+        "bookedBy" : {
+          "crsid" : "ma839"
+        },
+        "bookingTime" : 1642011389296,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "CVM"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4197901,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "camb3"
+        },
+        "bookedBy" : {
+          "crsid" : "camb3"
+        },
+        "bookingTime" : 1642070303066,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CBIOCH"
+        },
+        "misStatus" : "staff,student",
+        "attended" : false
+      }, {
+        "bookingId" : 4197904,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "sg831"
+        },
+        "bookedBy" : {
+          "crsid" : "sg831"
+        },
+        "bookingTime" : 1642070304286,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "MEDGEN"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4197947,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3809639"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642071043320,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4197949,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3877424"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642071129254,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4198033,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "bxy20"
+        },
+        "bookedBy" : {
+          "crsid" : "bxy20"
+        },
+        "bookingTime" : 1642072811530,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "ENG"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4198170,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "yz720"
+        },
+        "bookedBy" : {
+          "crsid" : "yz720"
+        },
+        "bookingTime" : 1642078016463,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "GEN"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4198575,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4198571"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642087692655,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4199447,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4199446"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642159814779,
+        "status" : "cancelled",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4199455,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4199451"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642159902983,
+        "status" : "cancelled",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4199462,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4199461"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642160068957,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4199911,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4199910"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642179253494,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4199924,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4199923"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642179463091,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4200989,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ht363"
+        },
+        "bookedBy" : {
+          "crsid" : "ht363"
+        },
+        "bookingTime" : 1642420372774,
+        "status" : "cancelled",
+        "institution" : {
+          "instid" : "BIOCH"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4202088,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4202087"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642452441640,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4202098,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4202097"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642452629194,
+        "status" : "no response",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4202124,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4202118"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642452882086,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4202865,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "tl503"
+        },
+        "bookedBy" : {
+          "crsid" : "tl503"
+        },
+        "bookingTime" : 1642505105621,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "FITZUG"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4203112,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "dmaa2"
+        },
+        "bookedBy" : {
+          "crsid" : "dmaa2"
+        },
+        "bookingTime" : 1642511171115,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "HAEM"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4203115,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "dmaa2"
+        },
+        "bookedBy" : {
+          "crsid" : "dmaa2"
+        },
+        "bookingTime" : 1642511239659,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "HAEM"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4204247,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mh2046"
+        },
+        "bookedBy" : {
+          "crsid" : "mh2046"
+        },
+        "bookingTime" : 1642587549804,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "STEM"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4204367,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4163504"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642590822169,
+        "status" : "cancelled",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4205615,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4205610"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642612371940,
+        "status" : "no response",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4207826,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "js2636"
+        },
+        "bookedBy" : {
+          "crsid" : "js2636"
+        },
+        "bookingTime" : 1642708935202,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "PATMP21"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4208363,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4208359"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1642765011952,
+        "status" : "no response",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4210017,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "tb540"
+        },
+        "bookedBy" : {
+          "crsid" : "tb540"
+        },
+        "bookingTime" : 1643018476381,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "PAED"
+        },
+        "misStatus" : "staff,student"
+      }, {
+        "bookingId" : 4211881,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4211880"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643106711101,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4211907,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4211889"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643106773629,
+        "status" : "no response",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4211912,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3565806"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643107166783,
+        "status" : "booked",
+        "institution" : {
+        },
+        "attended" : true
+      }, {
+        "bookingId" : 4212745,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "cl873"
+        },
+        "bookedBy" : {
+          "crsid" : "cl873"
+        },
+        "bookingTime" : 1643128760472,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "CMEDMP21"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4213825,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "el416"
+        },
+        "bookedBy" : {
+          "crsid" : "el416"
+        },
+        "bookingTime" : 1643194400756,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4213830,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4213828"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643194498636,
+        "status" : "no response",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4214130,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "eafp2"
+        },
+        "bookedBy" : {
+          "crsid" : "eafp2"
+        },
+        "bookingTime" : 1643202962063,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "THSMP21"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4214715,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4214714"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643215992898,
+        "status" : "no response",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4215016,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "at925"
+        },
+        "bookedBy" : {
+          "crsid" : "at925"
+        },
+        "bookingTime" : 1643233469425,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "BOT"
+        },
+        "misStatus" : "staff",
+        "attended" : true
+      }, {
+        "bookingId" : 4215961,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "tkmc2"
+        },
+        "bookedBy" : {
+          "crsid" : "tkmc2"
+        },
+        "bookingTime" : 1643299246578,
+        "status" : "booked",
+        "institution" : {
+          "instid" : "HOMUG"
+        },
+        "misStatus" : "student",
+        "attended" : true
+      }, {
+        "bookingId" : 4216845,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4216844"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643368387783,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4217784,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "aa2082"
+        },
+        "bookedBy" : {
+          "crsid" : "aa2082"
+        },
+        "bookingTime" : 1643489815843,
+        "status" : "no response",
+        "institution" : {
+          "instid" : "TRINUG"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4217846,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "hc578"
+        },
+        "bookedBy" : {
+          "crsid" : "hc578"
+        },
+        "bookingTime" : 1643555012774,
+        "status" : "waiting",
+        "institution" : {
+          "instid" : "GENMP21"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4218698,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4218697"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643637920167,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4218705,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4218700"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643637967079,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4218726,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4218725"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643638087491,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4219313,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "fb527"
+        },
+        "bookedBy" : {
+          "crsid" : "fb527"
+        },
+        "bookingTime" : 1643665357935,
+        "status" : "waiting",
+        "institution" : {
+          "instid" : "BIOSTAT"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4220697,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4220696"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643738141282,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4222847,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4222846"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643878309318,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4222859,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4222855"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643878396395,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4222861,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3959545"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643878459321,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4222867,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4222866"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643878607871,
+        "status" : "waiting",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4223923,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4223922"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643901798405,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4224686,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4224685"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1643969607461,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4226632,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4226631"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644244921401,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4226635,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4226634"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644244978286,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4228321,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4228297"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644337043985,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4230133,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4230132"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644485190232,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4230435,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4230434"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644497163926,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4232503,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4232502"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644830006955,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4234617,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4234613"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1644924674446,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4234955,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "wp278"
+        },
+        "bookedBy" : {
+          "crsid" : "wp278"
+        },
+        "bookingTime" : 1644931800628,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "MRCTOX"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4236878,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "vg336"
+        },
+        "bookedBy" : {
+          "crsid" : "vg336"
+        },
+        "bookingTime" : 1645055706132,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "WELLC"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4241818,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4171792"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1645612077395,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4241828,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4241827"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1645612250859,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4243602,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "ns665"
+        },
+        "bookedBy" : {
+          "crsid" : "ns665"
+        },
+        "bookingTime" : 1645709356417,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "GYNAE"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4244664,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mm2124"
+        },
+        "bookedBy" : {
+          "crsid" : "mm2124"
+        },
+        "bookingTime" : 1645789843911,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "HOMPG"
+        },
+        "misStatus" : "staff,student"
+      }, {
+        "bookingId" : 4246696,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4246694"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1646063123966,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4246699,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4246698"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1646063175107,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4252374,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "sz397"
+        },
+        "bookedBy" : {
+          "crsid" : "sz397"
+        },
+        "bookingTime" : 1646400175535,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "GEN"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4254065,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4056334"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1646661719039,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4254104,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4254103"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1646663031217,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4254604,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#3189087"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1646672656781,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4256750,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4256749"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1646905151586,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4258494,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "asn34"
+        },
+        "bookedBy" : {
+          "crsid" : "asn34"
+        },
+        "bookingTime" : 1647006658003,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "GEN"
+        },
+        "misStatus" : "student"
+      }, {
+        "bookingId" : 4265115,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4256379"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1647813700305,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4269453,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4184846"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1648051595479,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4271153,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4271152"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1648230187611,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4274803,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "bj311"
+        },
+        "bookedBy" : {
+          "crsid" : "bj311"
+        },
+        "bookingTime" : 1648762934423,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "CNEUROL"
+        },
+        "misStatus" : ""
+      }, {
+        "bookingId" : 4280872,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "acbg3"
+        },
+        "bookedBy" : {
+          "crsid" : "acbg3"
+        },
+        "bookingTime" : 1649683714655,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "CRUK"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4280900,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4280897"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1649685005857,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4282601,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4282536"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1649773652577,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4283601,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "tt479"
+        },
+        "bookedBy" : {
+          "crsid" : "tt479"
+        },
+        "bookingTime" : 1649848390953,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "CBIOCH"
+        },
+        "misStatus" : "staff"
+      }, {
+        "bookingId" : 4289741,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4289740"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1650356312885,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4290814,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4290813"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1650388431503,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4291988,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4291981"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1650463402106,
+        "status" : "interested",
+        "institution" : {
+        }
+      }, {
+        "bookingId" : 4293262,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "mg2013"
+        },
+        "bookedBy" : {
+          "crsid" : "mg2013"
+        },
+        "bookingTime" : 1650544624065,
+        "status" : "interested",
+        "institution" : {
+          "instid" : "MILNER"
+        },
+        "misStatus" : ""
+      }, {
+        "bookingId" : 4301860,
+        "event" : {
+          "eventId" : 4178578
+        },
+        "participant" : {
+          "crsid" : "#4301859"
+        },
+        "bookedBy" : {
+          "crsid" : "cgh32"
+        },
+        "bookingTime" : 1651231745487,
+        "status" : "interested",
+        "institution" : {
+        }
+      } ]
+    }
+  }
+}
