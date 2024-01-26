@@ -1,17 +1,34 @@
-
 <script>
-    let data;
-  import { onMount } from 'svelte'
-  import responses from '/Users/Harry/Documents/Current test/workingversion/output.json'
-    import { element } from 'svelte/internal';
+  let data;
+  import { onMount } from 'svelte';
+  import { element } from 'svelte/internal';
 
-  // A variable to store the current colour of the button
+  import responses from '/Users/Harry/Documents/Current test/workingversion/output.json';
+
   let colour = "white";
 
-  function sayconfirm() {
-    alert("User logged in");
+  let searchQuery = "";
+
+  let bookings = responses.result.event.bookings;
+
+  $: filteredBookings = bookings.filter(
+    (booking) =>
+      booking.participant.crsid.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  function sayconfirm(crsid) {
+    alert(` ${crsid} logged in`);
   }
-  
+
+  function handleSearchInput(event) {
+    searchQuery = event.target.value;
+  }
+
+  async function removeRow(bookingId, crsid, status) {
+    bookings = bookings.filter((booking) => booking.bookingId !== bookingId);
+
+    sayconfirm(crsid);
+  }
 </script>
 
 <h1>{responses.result.event.title}</h1>
@@ -20,42 +37,41 @@
 <h3>Event Objectives:</h3>
 <p>{responses.result.event.objectives}</p>
 
- 
+<input type="text" placeholder="Search by CRSID" bind:value={searchQuery} on:input={handleSearchInput} />
 
- <table name =myTable>
+<table name="myTable">
   <thead>
     <tr>
-      <th>CRSdasdasdyID</th>
+      <th>CRS ID</th>
       <th>Booking Status</th>
       <th>Register</th>
     </tr>
   </thead>
   <tbody>
-    {#each responses.result.event.bookings as response (response.bookingId)}
-    <tr>
-      <td>{response.participant.crsid}</td>
-      <td>{response.status}</td>
-  
-      <td>
-        <button style="background-color: {colour}" on:click={() => {console.log(response.participant.crsid);sayconfirm();}}>Log</button>
-    
-      </td>
-    
-      
-    </tr>
+    {#each filteredBookings as response (response.bookingId)}
+      <tr>
+        <td>{response.participant.crsid}</td>
+        <td>{response.status}</td>
+        <td>
+          <button
+            style="background-color: {colour}"
+            on:click={() => {
+              console.log(response.participant.crsid);
+              removeRow(response.bookingId, response.participant.crsid, response.status);
+            }}
+          >
+            Log
+          </button>
+        </td>
+      </tr>
     {/each}
   </tbody>
 </table>
 
-<head>
-  <style>
+<style>
   table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
-    margin: auto
+    margin: auto;
   }
-   /* Styling for the table margin auto makes it center */
-  </style>
-
-
-  </head>
+</style>
