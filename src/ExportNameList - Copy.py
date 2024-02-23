@@ -23,12 +23,6 @@ def getEventDetails():
                     crsid = urllib.parse.quote(crsid)  # Replace # with %23
                 print(crsid)
                 crsids.append(crsid)
-            if 'bookedBy' in booking and 'crsid' in booking['bookedBy']:
-                crsid = booking['bookedBy']['crsid']
-                if crsid.startswith('#'):
-                    crsid = urllib.parse.quote(crsid)  # Replace # with %23
-                print(crsid)
-                crsids.append(crsid)
         return crsids
     else:
         print('Could not authenticate')
